@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "/.netlify/functions/api";
+const baseUrl = "http://localhost:3002/products";
 
 const getAllProducts = () => axios.get(baseUrl);
 const getProductById = (productId) => axios.get(`${baseUrl}/${productId}`);
