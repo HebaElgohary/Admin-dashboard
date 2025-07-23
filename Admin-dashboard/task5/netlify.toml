@@ -1,6 +1,0 @@
-[build]
-command = "cd task5 && npm run build"
-publish = "task5/dist"
-
-[functions]
-directory = "server/functions"
